@@ -1,0 +1,20 @@
+git init // cria um repositório
+
+git config --global user.name nomeUsuario // agrega seu nome ao repositório
+
+git config --global user.email nomeUsuario@email.com // agrega seu email ao repositório
+
+git remote add origin https://github.com/DH/RepoRemoto // aponta um repositório remoto
+
+git add // adiciona todos os arquivos 
+
+gir commit -m " mensagem" // adiciona uma mensagem nas alterações feitas
+
+git status // mostra o estado dos arquivos	 
+
+git pull  origin main // baixa todas as altecações
+
+git clone // Baixar arquivos. Basta executar esse comando seguido pelo endereço url no qual o repositório se encontra. 
+                  Com isso, você conseguirá criar uma cópia remota em sua máquina.
+                  EX: git clone https://github.com/meuusuario/meurepositorio
+
