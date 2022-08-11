@@ -1,3 +1,4 @@
+
 git init // cria um repositório
 
 git config --global user.name nomeUsuario // agrega seu nome ao repositório
