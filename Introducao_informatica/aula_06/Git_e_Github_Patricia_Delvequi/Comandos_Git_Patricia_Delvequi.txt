@@ -1,0 +1,10 @@
+$ git add . // adiciona todos os arquivos de um diretório
+$ clear // limpa todo o código do terminal
+$ cd // sobe o nível das pastas
+$ cd /diretório // vai para o diretório que escolhermos
+$ git ls // nos mostra a lista de conteúdo de um diretório
+$ touch nomedoarquivo.extensãodoarquivo // cria um arquivo com a extensão desejada
+$ mkdir nomedoarquivo // cria um diretório
+$ git commit -m "mensagem" // adiciona a alteração com uma mensagem ao repositório
+$ git push origin master (ou main) // envia as alterações ao repositório remoto
+$ git status // acompanha os estados dos arquivos
