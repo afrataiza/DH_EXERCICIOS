@@ -1,0 +1,10 @@
+Comandos no Git 
+
+git clone + <url> -> Para clonar repositório
+git remote -v     -> Exibirá as URLs criadas no github, que é remoto para a cópia local
+git status        -> Exibi as condições do diretório de trabalho
+git commit -m <"mensagem"> -> Captura um instantâneo das mudanças preparadas do projeto
+git log           -> Podemos visualizar o que vem sendo feito em uma determinada branch
+git add .         -> Adiciona todos os arquivos no diretório atual 
+git push origin main -> Usado para enviar o conteúdo do repositório local para um repositório remoto. 
+git init          -> Inicia um repositório
