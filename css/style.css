@@ -6,13 +6,11 @@ a {
     box-shadow: 7px 7px 20px 0px rgba(50, 50, 50, 0.5);
     display: flex ;
     flex-direction: column;
-    text-decoration: none;
     width: 200px;
     height: 200px;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    color: #363636;
     border-radius: 20px;
     border-left: 3px solid rgb(229, 72, 72);
     border-top: 3px solid rgb(229, 72, 72);
@@ -26,10 +24,39 @@ a:hover {
     cursor: pointer;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-  padding-bottom: 10px;
+#aula-5 {
+    background-image: url('../images/Aula5.png');
+    background-size: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aula-6 {
+    background-image: url('../images/Aula6.png');
+    background-size: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aula-7 {
+    background-image: url('../images/Aula7.png');
+    background-size: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aula-8 {
+    background-image: url('../images/Aula8.png');
+    background-size: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aula-9 {
+    background-image: url('../images/Aula9.png');
+    background-size: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 div {
