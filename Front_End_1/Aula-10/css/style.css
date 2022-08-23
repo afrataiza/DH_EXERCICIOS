@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    height: 1024px;
+}
+
+#bar-discount {
+    background-color: #1CD1B0;
+    padding-left: 10px;
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+header {
+    background-color: #00669F;
+    width: 100%;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    margin-left: 28px;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.cards-area {
+    display: flex;
+    width: 834px;
+    height: 597px;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 374px;
+    height: 597px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.favorite {
+    width: 34px;
+    height: 30px;
+    position: absolute;
+    left: 24px;
+    top: 19px;
+}
+
+.picture-card {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    position: absolute;
+    top: 143px;
+    right: 110px;
+    left: 128px;
+}
+
+.back-card {
+    width: 374px;
+    height: 218px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 82px 0px 30px;
+    font-size: 30px;
+    line-height: 35px;
+    width: 192px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 55px;
+    background-color: #00669F;
+    margin-top: 24px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+a:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+p {
+    width: 301px;
+    height: 128px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #333333;
+}
+
+footer {
+    position: absolute;
+    margin-top: 151px;
+    display: flex;
+    width: 100%;
+    height: 51px;
+    align-items: center;
+    padding-left: 28px;
+    background-color: #00669F;
+    left: 0px;
+    top: 972px;
+}
+
+footer h3 {
+    color: white;
+}
+
