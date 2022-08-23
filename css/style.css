@@ -53,6 +53,13 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+#aula-10 {
+    background-image: url('../images/Aula10.png');
+    background-size: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 div {
     display: flex;
     justify-content: center;
