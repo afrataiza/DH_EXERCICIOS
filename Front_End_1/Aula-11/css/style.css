@@ -140,6 +140,7 @@ main {
     margin: 35px 0;
     display: flex;
     justify-content: center;
+    background-color: #E5E5E5;
 }
 
 .pizza-menu {
