@@ -74,6 +74,13 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+#aula-14 {
+    background-image: url('../images/Aula14.png');
+    background-size: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 div {
     display: flex;
     justify-content: center;
