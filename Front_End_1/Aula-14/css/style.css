@@ -7,7 +7,7 @@
 }
 
 #bar-discount {
-    background-color: #1CD1B0;
+    background-color: #D1891C;
     padding-left: 10px;
     width: 100vw;
     height: 38px;
@@ -33,12 +33,14 @@ header img {
     height: 50px;
     width: 50px;
     object-fit: cover;
+    margin-left: 28px;
 }
 
 h1 {
     margin-left: 28px;
     font-size: 40px;
     line-height: 47px;
+    color: white;
 }
 
 main {
@@ -102,7 +104,7 @@ main {
 
 .text-card h2 {
     text-align: center;
-    margin: 82px 0px 30px;
+    margin: 82px 0px 25px;
     font-size: 2rem;
     line-height: 35px;
     width: 100%;
@@ -128,9 +130,9 @@ a:active {
 }
 
 p {
-    width: 301px;
+    width: 90%;
     height: 128px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 19px;
     text-align: justify;
     color: #333333;
