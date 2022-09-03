@@ -481,6 +481,11 @@ header button {
         height: 100%;
         margin-bottom: 0;
     }
+    .highlighted-content h2 {
+        width: 90%;
+        font-size: 30px;
+        text-align: center;
+    }
     .subscription {
         flex-wrap: wrap;
         padding-bottom: 10px;
@@ -490,7 +495,7 @@ header button {
     .subscription p {
         width: 60%;
         padding-left: 0;
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     .subscription img {
         height: 40px;
@@ -503,5 +508,9 @@ header button {
     .subscription button {
         margin-top: 10px;
         width: 30%;
+    }
+    .slide-content div {
+        margin-right: 0;
+        width: 100%;
     }
 }
