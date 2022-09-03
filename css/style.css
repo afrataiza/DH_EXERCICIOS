@@ -11,6 +11,16 @@ a {
     border-left: 3px solid rgb(229, 72, 72);
     border-top: 3px solid rgb(229, 72, 72);
     transition: all 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(229, 72, 72);
+    background-image: url(../images/html.png);
+    background-repeat: no-repeat;
+    background-position: top;
+   
 }
 
 a:hover {
@@ -18,68 +28,6 @@ a:hover {
     cursor: pointer;
 }
 
-#aula-5 {
-    background-image: url('../images/Aula5.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#aula-6 {
-    background-image: url('../images/Aula6.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#aula-7 {
-    background-image: url('../images/Aula7.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#aula-8 {
-    background-image: url('../images/Aula8.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#aula-9 {
-    background-image: url('../images/Aula9.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#aula-10 {
-    background-image: url('../images/Aula10.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#aula-11 {
-    background-image: url('../images/Aula11.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#aula-12 {
-    background-image: url('../images/Aula12.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#aula-14 {
-    background-image: url('../images/Aula14.png');
-    background-size: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 div {
     display: flex;
