@@ -327,7 +327,7 @@ main {
 
 .subscription p {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
@@ -485,16 +485,23 @@ header button {
         flex-wrap: wrap;
         padding-bottom: 10px;
         height: 100%;
+        justify-content: space-around;
     }
     .subscription p {
-        width: 80%;
+        width: 60%;
         padding-left: 0;
+        font-size: 1rem;
     }
     .subscription img {
         height: 40px;
         width: 40px;
     }
-    .subscription input, button {
+    .subscription input {
         margin-top: 10px;
+        width: 60%;
+    }
+    .subscription button {
+        margin-top: 10px;
+        width: 30%;
     }
 }
